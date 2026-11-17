@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Consciente | Golpes em Jogos Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container">
+      <span class="tag">SIPAT 2026 • DESENVOLVIMENTO DE SISTEMAS</span>
+      <h1>CYBER CONSCIENTE: ESCUDO GAMER</h1>
+      <p class="subtitulo">Aprenda a identificar golpes em jogos online, proteja suas contas e saiba como usar computadores compartilhados com segurança.</p>
+      <p class="autor">Feito por: <strong>Kauã Batista Barbosa</strong> | Tema: Golpes em jogos online e roubo de contas gamer</p>
+      
+      <nav class="menu">
+        <a href="#caso-real">O Caso Real</a>
+        <a href="#como-acontece">Como o Golpe Funciona</a>
+        <a href="#prevencao">Como se Prevenir</a>
+        <a href="#compartilhados">PCs Compartilhados</a>
+        <a href="#simulador">Teste de Golpe</a>
+        <a href="#quiz">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- APRESENTAÇÃO BREVE -->
+    <section class="bloco">
+      <h2>O que são golpes em jogos online?</h2>
+      <p>Hoje em dia, muitas contas de jogos valem dinheiro por causa de skins, itens raros e jogos comprados. Por isso, golpistas criam armadilhas na internet para enganar os jogadores, roubar senhas e assumir o controle dos perfis.</p>
+    </section>
+
+    <!-- O CASO REAL (NO PADRÃO DO EXEMPLO ENVIADO) -->
+    <section id="caso-real" class="bloco destaque">
+      <h2>1. Caso Real Investigado (Golpe na Steam)</h2>
+      <p>Para compreender o impacto real desse crime, foi investigada uma reportagem publicada por veículo jornalístico confiável sobre um golpe que enganava jogadores para roubar contas da plataforma Steam:</p>
+      
+      <div style="background-color: #0f172a; padding: 18px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #334155;">
+        <h3 style="color: #38bdf8; margin-bottom: 10px;">Detalhes da Reportagem</h3>
+        <p style="margin-bottom: 6px; font-size: 14px;"><strong>Título da Notícia:</strong> Golpe oferece jogos grátis para roubar contas da Steam</p>
+        <p style="margin-bottom: 6px; font-size: 14px;"><strong>Veículo / Fonte:</strong> g1 (Blog do Altieres Rohr)</p>
+        <p style="margin-bottom: 6px; font-size: 14px;"><strong>Data de Publicação:</strong> 21/08/2019</p>
+        <p style="margin-bottom: 14px; font-size: 14px;"><strong>Link Original:</strong> <a href="https://g1.globo.com/economia/tecnologia/blog/altieres-rohr/post/2019/08/21/golpe-oferece-jogos-gratis-para-roubar-contas-da-steam.ghtml" target="_blank" style="color: #38bdf8;">Acessar matéria completa no g1 ↗</a></p>
+
+        <div style="text-align: center; background-color: #020617; padding: 10px; border-radius: 8px; border: 1px solid #1e293b;">
+          <img src="print-noticia.jpg" alt="Recorte da matéria original publicada pelo portal g1 sobre o golpe na Steam" style="width: 100%; border-radius: 6px; display: block;">
+          <p style="font-size: 12px; color: #94a3b8; margin-top: 8px; margin-bottom: 0; font-style: italic;">Recorte da matéria original publicada pelo portal g1 em 21/08/2019 (anúncio publicitário removido).</p>
+        </div>
+      </div>
+
+      <p><strong>O que aconteceu e prejuízos:</strong> De acordo com a reportagem, golpistas criaram um site falso chamado <em>"GameKeys"</em>, que prometia sortear jogos pagos gratuitamente (como GTA V e Skyrim) para atrair jogadores da Steam. Ao tentar resgatar o prêmio, a vítima caía em uma tela falsa de login; assim que digitava usuário e senha, os invasores trocavam o e-mail da conta, assumiam o controle do perfil, roubavam itens do inventário e usavam a conta para espalhar o link falso aos amigos.</p>
+
+      <p><strong>Investigação e resolução:</strong> O ataque foi descoberto e denunciado pelo site especializado <em>Bleeping Computer</em>. A Steam disponibiliza um guia de suporte para que o dono original comprove a propriedade e recupere o acesso à conta, mas alerta que os itens perdidos no inventário não são devolvidos. A reportagem não informa se houve investigação policial ou prisão dos responsáveis.</p>
+    </section>
+
+    <!-- COMO O GOLPE ACONTECE -->
+    <section id="como-acontece" class="bloco">
+      <h2>2. Como o Golpe Acontece: Sinais de Alerta</h2>
+      <div class="colunas-3">
+        <div class="caixa-passo">
+          <h3>1º Passo: A Mensagem Isca</h3>
+          <p>Você recebe um link no chat do jogo enviado pela conta de um amigo que já foi hackeado, prometendo jogos ou skins de graça.</p>
+        </div>
+        <div class="caixa-passo">
+          <h3>2º Passo: Tela Falsa</h3>
+          <p>Ao clicar para resgatar o prêmio, abre uma janela que copia perfeitamente a tela de login da Steam, mas o endereço lá em cima não é o oficial.</p>
+        </div>
+        <div class="caixa-passo">
+          <h3>3º Passo: Conta Roubada</h3>
+          <p>Assim que você digita seu usuário e senha, os criminosos roubam seus dados, trocam o e-mail da conta e bloqueiam seu acesso.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO SE PREVENIR (5 ORIENTAÇÕES) -->
+    <section id="prevencao" class="bloco">
+      <h2>3. Como se Prevenir (5 Dicas Práticas)</h2>
+      <ul class="lista">
+        <li><strong>Ative a verificação em duas etapas (Steam Guard):</strong> Mesmo que alguém descubra sua senha, não vai conseguir entrar sem o código do seu celular.</li>
+        <li><strong>Olhe sempre o endereço do site (URL):</strong> Antes de colocar sua senha, confira se o link lá em cima é realmente o oficial (ex: <code>steamcommunity.com</code>) e tem o cadeado de segurança.</li>
+        <li><strong>Desconfie de jogos ou skins de graça:</strong> Nenhuma plataforma dá jogos caros através de links estranhos mandados no chat.</li>
+        <li><strong>Avise seu amigo por outro aplicativo:</strong> Se um amigo mandar links suspeitos no chat do jogo, mande mensagem para ele no WhatsApp ou Discord para avisar que a conta dele pode ter sido invadida.</li>
+        <li><strong>Não baixe programas piratas ou cheats:</strong> Arquivos de trapaça e jogos piratas costumam esconder vírus que roubam as senhas salvas no seu navegador.</li>
+      </ul>
+    </section>
+
+    <!-- SEÇÃO OBRIGATÓRIA: COMPUTADORES COMPARTILHADOS -->
+    <section id="compartilhados" class="bloco">
+      <h2>4. Segurança no uso de computadores compartilhados</h2>
+      <p>Quando usamos computadores no laboratório do SENAI, na escola ou em empresas, precisamos tomar cuidado tanto com os nossos dados quanto com a nossa postura física:</p>
+
+      <div class="colunas-2">
+        <div>
+          <h3>Proteção de Dados e Senhas</h3>
+          <ul class="lista">
+            <li><strong>Use sua própria conta e nunca salve senhas:</strong> Sempre clique em "Nunca" quando o navegador perguntar se deseja salvar sua senha.</li>
+            <li><strong>Faça logout de tudo ao sair:</strong> Encerre sua sessão no e-mail, redes sociais e sistemas antes de ir embora, fechando todos os arquivos.</li>
+            <li><strong>Bloqueie a tela se precisar sair rápido:</strong> Vai levantar da cadeira por um minuto? Aperte <code>Win + L</code> para travar a tela.</li>
+            <li><strong>Não deixe arquivos pessoais na máquina:</strong> Não salve trabalhos na Área de Trabalho e não conecte pendrives desconhecidos.</li>
+            <li><strong>Não mexa nas configurações de segurança:</strong> Nunca desative o antivírus nem tente burlar bloqueios da rede da instituição.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Segurança Física e Ergonomia (NR-17)</h3>
+          <ul class="lista">
+            <li><strong>Ajuste cadeira e monitor:</strong> Deixe a tela na altura dos olhos, os pés apoiados no chão e os ombros relaxados para não forçar o pescoço.</li>
+            <li><strong>Faça pausas e alongue:</strong> Evite ficar horas seguidas na mesma posição sem dar uma descansada nos braços e na vista.</li>
+            <li><strong>Mantenha água e comida longe:</strong> Líquidos perto do teclado ou gabinete podem causar curto-circuito e estragar o equipamento.</li>
+            <li><strong>Higiene e organização:</strong> Confira se teclado e mouse estão limpos antes de usar e mantenha os cabos organizados para ninguém tropeçar.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- CHECKLIST INTERATIVO -->
+      <div class="caixa-checklist">
+        <h3>Checklist Rápido (Marque o que você já fez)</h3>
+        <label><input type="checkbox" class="item-check"> <strong>Antes de usar:</strong> Ajustei a cadeira e o monitor, conferi a limpeza e vi se não tinha nenhuma conta aberta.</label>
+        <label><input type="checkbox" class="item-check"> <strong>Durante o uso:</strong> Deixei garrafas de água longe do PC, não salvei senhas e bloqueei a tela (Win + L) ao sair.</label>
+        <label><input type="checkbox" class="item-check"> <strong>Depois de usar:</strong> Fiz logout de todas as minhas contas, apaguei meus arquivos da Área de Trabalho e organizei a mesa.</label>
+        <p id="texto-checklist" class="aviso-check">Marque os itens acima para conferir seu checklist.</p>
+      </div>
+    </section>
+
+    <!-- FUNCIONALIDADE INTERATIVA EXTRA: SIMULADOR DE GOLPE -->
+    <section id="simulador" class="bloco">
+      <h2>5. Teste Prático: Você cairia nesse golpe?</h2>
+      <p>Imagine que você está jogando e recebe essa mensagem no chat de um amigo. O que você faz?</p>
+      
+      <div class="chat-falso">
+        <p><strong>Amigo_Gamer99:</strong> Mano olha esse site oficial da Steam dando GTA V e Skyrim de graça hoje!! Resgata rápido antes que acabe: <u>http://steam-gamekeys-gratis.xyz/login</u></p>
+      </div>
+
+      <div class="botoes-simulador">
+        <button onclick="testarGolpe(false)">Clico no link e coloco minha senha da Steam para pegar o jogo</button>
+        <button onclick="testarGolpe(true)">Não clico no link falso e aviso meu amigo no WhatsApp</button>
+      </div>
+
+      <div id="resposta-simulador" class="caixa-feedback"></div>
+    </section>
+
+    <!-- QUIZ INTERATIVO OBRIGATÓRIO (5 PERGUNTAS) -->
+    <section id="quiz" class="bloco">
+      <h2>6. Quiz: Teste o que você aprendeu</h2>
+      <form id="form-quiz">
+        
+        <div class="pergunta">
+          <p><strong>1. Como os golpistas da notícia enganavam os jogadores da Steam?</strong></p>
+          <label><input type="radio" name="p1" value="a"> Ligando para o telefone da casa da vítima</label>
+          <label><input type="radio" name="p1" value="b"> Enviando links falsos prometendo jogos grátis que abriam uma tela falsa de login</label>
+          <label><input type="radio" name="p1" value="c"> Vendendo computadores usados com defeito</label>
+        </div>
+
+        <div class="pergunta">
+          <p><strong>2. Qual ferramenta ajuda a proteger sua conta mesmo se alguém descobrir sua senha?</strong></p>
+          <label><input type="radio" name="p2" value="a"> Autenticação em dois fatores (Steam Guard)</label>
+          <label><input type="radio" name="p2" value="b"> Colocar a data de nascimento na senha</label>
+          <label><input type="radio" name="p2" value="c"> Deixar a conta aberta no PC da escola</label>
+        </div>
+
+        <div class="pergunta">
+          <p><strong>3. Se sua conta for roubada e os hackers sumirem com suas skins, o que a Steam faz segundo a notícia?</strong></p>
+          <label><input type="radio" name="p3" value="a"> Devolve todos os itens em dobro</label>
+          <label><input type="radio" name="p3" value="b"> Ajuda a recuperar a conta com comprovante, mas não devolve os itens perdidos</label>
+          <label><input type="radio" name="p3" value="c"> Paga o valor dos itens em dinheiro</label>
+        </div>
+
+        <div class="pergunta">
+          <p><strong>4. O que você deve fazer ao terminar de usar um computador compartilhado no SENAI?</strong></p>
+          <label><input type="radio" name="p4" value="a"> Só desligar a tela do monitor</label>
+          <label><input type="radio" name="p4" value="b"> Salvar a senha no navegador para a próxima aula</label>
+          <label><input type="radio" name="p4" value="c"> Fazer logout de todos os sites e apagar arquivos pessoais da Área de Trabalho</label>
+        </div>
+
+        <div class="pergunta">
+          <p><strong>5. Qual atitude evita acidentes e problemas físicos no posto de trabalho?</strong></p>
+          <label><input type="radio" name="p5" value="a"> Manter líquidos longe do PC e ajustar o monitor na altura dos olhos</label>
+          <label><input type="radio" name="p5" value="b"> Puxar os cabos da tomada com força</label>
+          <label><input type="radio" name="p5" value="c"> Ficar 4 horas seguidas sem fazer pausas</label>
+        </div>
+
+        <button type="button" class="btn-enviar" onclick="corrigirQuiz()">Ver minha pontuação</button>
+      </form>
+      <div id="resultado-quiz" class="caixa-feedback"></div>
+    </section>
+
+    <!-- FONTES CONSULTADAS -->
+    <section class="bloco">
+      <h2>7. Fontes Consultadas</h2>
+      <ul class="lista">
+        <li>Notícia g1: <a href="https://g1.globo.com/economia/tecnologia/blog/altieres-rohr/post/2019/08/21/golpe-oferece-jogos-gratis-para-roubar-contas-da-steam.ghtml" target="_blank">Golpe oferece jogos grátis para roubar contas da Steam</a></li>
+        <li>CERT.br — Cartilha de Segurança para Internet: <a href="https://cartilha.cert.br/" target="_blank">https://cartilha.cert.br/</a></li>
+        <li>CERT.br — Dicas rápidas (equipamentos compartilhados): <a href="https://cartilha.cert.br/dicas-rapidas/" target="_blank">https://cartilha.cert.br/dicas-rapidas/</a></li>
+        <li>Ministério do Trabalho — NR-17 (Ergonomia): <a href="https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17" target="_blank">Página oficial NR-17 (gov.br)</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>SIPAT 2026 • Cyber Consciente — Desenvolvido por Kauã Batista Barbosa</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
